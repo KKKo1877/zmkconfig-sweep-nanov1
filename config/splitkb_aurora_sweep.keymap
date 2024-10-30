@@ -113,7 +113,7 @@
 &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none     &none  &none  &none  &none      &none
 &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &none  &none  &none  &none      &none
 &none  &kp N7        &kp N8        &kp N9        &none     &none  &none  &none  &none      &none
-&mo 0  &kp LCTRL                                                                &kp SPACE  &mo 2
+&none  &kp LCTRL                                                                &kp SPACE  &to 0
             >;
         };
 
@@ -122,7 +122,7 @@
 &none      &none         &none         &none           &none         &kp MINUS     &kp HASH  &kp GRAVE             &kp AT_SIGN            &kp AMPERSAND
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp DELETE    &kp QUESTION  &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR
 &none      &none         &none         &none           &none         &kp EXCL      &kp DOT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL
-&to 0      &none                                                                                                   &none                  &none
+&to 0      &none                                                                                                   &none                  &to 0
             >;
         };
     };
