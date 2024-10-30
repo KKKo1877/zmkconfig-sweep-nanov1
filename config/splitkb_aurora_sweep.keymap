@@ -102,10 +102,10 @@
 
         Navigation {
             bindings = <
-&kp NUMBER_1     &kp N2          &kp N3        &kp N4         &kp N5      &kp N6             &kp N7          &kp N8          &kp N9           &kp N0
-&kp K_VOLUME_UP  &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME    &kp K_SCROLL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp RCTRL
-&kp LEFT_SHIFT   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END     &kp K_SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DEL
-&mo 3            &kp SPACE                                                                                                   &kp ENTER        &mo 2
+&kp NUMBER_1              &kp N2          &kp N3        &kp N4         &kp N5      &kp N6             &kp N7          &kp N8          &kp N9           &kp N0
+&kp C_VOLUME_UP           &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME    &kp K_SCROLL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp RCTRL
+&mt K_MUTE C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END     &kp K_SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DEL
+&mo 3                     &kp SPACE                                                                                                   &kp ENTER        &mo 2
             >;
         };
 
