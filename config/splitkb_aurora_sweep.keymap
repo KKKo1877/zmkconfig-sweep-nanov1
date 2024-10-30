@@ -85,7 +85,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        colemak-DH {
+        Colemak-DH {
             bindings = <
 &kp Q           &kp W           &kp F           &kp P        &kp B          &kp J  &kp L              &kp U            &kp Y            &kp SEMICOLON
 &mt LCTRL A     &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LS(T) T  &kp G          &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O
@@ -94,7 +94,7 @@
             >;
         };
 
-        navigation {
+        Navigation {
             bindings = <
 &kp NUMBER_1     &kp N2          &kp N3        &kp N4         &kp N5      &kp N6             &kp N7          &kp N8          &kp N9           &kp N0
 &kp K_VOLUME_UP  &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME    &kp K_SCROLL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp RCTRL
@@ -103,7 +103,7 @@
             >;
         };
 
-        number_word {
+        Number_word {
             bindings = <
 &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none     &none  &none  &none  &none      &none
 &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &none  &none  &none  &none      &none
