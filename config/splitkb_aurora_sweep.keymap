@@ -38,17 +38,12 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <13 14>;
+            key-positions = <10 11>;
         };
 
         numlayer {
             bindings = <&to 0>;
             key-positions = <12 17>;
-        };
-
-        layer_symbol {
-            bindings = <&to 3>;
-            key-positions = <30 33>;
         };
     };
 
@@ -92,10 +87,10 @@
 
         Colemak-DH {
             bindings = <
-&kp Q           &kp W           &kp F           &kp P        &kp B          &kp J  &kp L              &kp U            &kp Y            &kp SEMICOLON
-&mt LCTRL A     &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LS(T) T  &kp G          &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O
-&kp Z           &kp X           &mt LC(C) C     &kp D        &mt LC(V) V    &kp K  &kp H              &kp COMMA        &kp DOT          &kp SLASH
-&lt 1 C_REPEAT  &kp SPACE                                                                                              &kp ENTER        &mo 2
+&kp Q         &kp W           &kp F           &kp P        &kp B          &kp J  &kp L              &kp U            &kp Y            &kp SEMICOLON
+&mt LCTRL A   &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LS(T) T  &kp G          &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O
+&kp Z         &kp X           &mt LC(C) C     &kp D        &mt LC(V) V    &kp K  &kp H              &kp COMMA        &kp DOT          &kp SLASH
+&kp C_REPEAT  &kp SPACE                                                                                              &kp ENTER        &to 1
             >;
         };
 
@@ -104,16 +99,16 @@
 &kp F1                    &kp F2          &kp F3        &kp F4         &kp F5      &kp F6             &kp F7          &kp F8          &kp F9           &kp ESC
 &kp C_VOLUME_UP           &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &kp HOME    &kp K_SCROLL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp RCTRL
 &mt K_MUTE C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp END     &kp K_SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DEL
-&to 3                     &kp SPACE                                                                                                   &kp ENTER        &mo 2
+&to 0                     &kp SPACE                                                                                                   &kp ENTER        &to 2
             >;
         };
 
         Number_word {
             bindings = <
-&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none     &bt BT_CLR    &bt BT_SEL 2  &none  &none      &none
-&none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &bt BT_SEL 0  &bt BT_SEL 3  &none  &none      &none
-&none  &kp N7        &kp N8        &kp N9        &none     &bt BT_SEL 1  &bt BT_SEL 4  &none  &none      &none
-&to 3  &kp LCTRL                                                                              &kp SPACE  &none
+&kp ESCAPE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS    &bt BT_CLR    &bt BT_SEL 2  &kp K_PREVIOUS   &kp K_PLAY_PAUSE  &kp K_NEXT
+&kp TAB      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS     &bt BT_SEL 0  &bt BT_SEL 3  &kp C_VOLUME_UP  &kp K_MUTE        &kp C_VOL_DN
+&kp C_RESET  &kp N7        &kp N8        &kp N9        &kp N0       &bt BT_SEL 1  &bt BT_SEL 4  &kp C_BRI_UP     &none             &kp C_BRI_DEC
+&to 0        &kp LCTRL                                                                                           &kp SPACE         &to 3
             >;
         };
 
@@ -121,8 +116,8 @@
             bindings = <
 &none      &none         &none         &none           &none         &kp MINUS     &kp HASH  &kp GRAVE             &kp AT_SIGN            &kp AMPERSAND
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp DELETE    &kp QUESTION  &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR
-&none      &none         &none         &none           &none         &kp EXCL      &kp DOT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL
-&to 0      &none                                                                                                   &none                  &to 0
+&none      &none         &none         &none           &none         &kp EXCL      &kp DOT   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &to 2
+&to 0      &none                                                                                                   &none                  &to 1
             >;
         };
     };
