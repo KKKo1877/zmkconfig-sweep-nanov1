@@ -45,10 +45,9 @@
             key-positions = <12 17>;
         };
 
-        symbol {
-            bindings = <&to 2>;
-            key-positions = <31 32>;
-            layers = <2>;
+        layer_symbol {
+            bindings = <&to 3>;
+            key-positions = <30 33>;
         };
     };
 
@@ -95,7 +94,7 @@
 &kp Q           &kp W           &kp F           &kp P        &kp B          &kp J  &kp L              &kp U            &kp Y            &kp SEMICOLON
 &mt LCTRL A     &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LS(T) T  &kp G          &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RCTRL O
 &kp Z           &kp X           &mt LC(C) C     &kp D        &mt LC(V) V    &kp K  &kp H              &kp COMMA        &kp DOT          &kp SLASH
-&lt 1 C_REPEAT  &kp SPACE                                                                                              &kp ENTER        &mo 2
+&lt 1 C_REPEAT  &kp SPACE                                                                                              &kp ENTER        &lt 2 K_UNDO
             >;
         };
 
